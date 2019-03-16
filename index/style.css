@@ -139,11 +139,3 @@ img.icon {
   min-width: 29px;
   width: 29px;
 }
-.copyright {
-  display: block;
-  position: fixed;
-  margin: 0;
-  width: 100%;
-  bottom: 1%;
-  text-align:center;
-}
