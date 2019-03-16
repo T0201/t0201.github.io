@@ -1,0 +1,23 @@
+Package: org.t0201.kodi-ios64
+Name: Kodi-iOS (64-bit)
+Version: 18.1-0
+Architecture: iphoneos-arm
+Depends: firmware (>= 7.0)
+Pre-Depends: cy+cpu.arm64
+Conflicts: org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios
+Filename: ./deb/org.t0201.kodi-ios_18.1-0_iphoneos-arm64.deb
+Size: 55119368
+MD5sum: 68880cb600118cba1a8baf90d3594029
+SHA1: 9915964021e7d31ce34d7842ad1246bf373e124e
+SHA256: 1d48e142a04f6d4d22fdd6f94f416e44d73fa655fb27f4ab1cb734f3f0630cf1
+SHA384: 4fe935dc5744b4260732dce95bbe5ae8efedaab4a3a22dbdeccd821ef363136d16329186d7ae502c6c63f44d4b745e1e
+SHA512: 36c6f6a8ada11c5422b48a4cc32fe69c7cccd2047630e535df7da0341d71592586e5611cf091ce4a30eb22537dc865d5e15ab56b71ee5b6a133b17f363b455aa
+Priority: Extra
+Installed-Size: 184612
+Description: Kodi Entertainment Center for iOS
+Homepage: http://kodi.tv/
+Maintainer: Memphiz
+Author: Team-Kodi
+Section: Multimedia
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
