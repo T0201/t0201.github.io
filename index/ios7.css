@@ -1,4 +1,3 @@
-/* Basic iOS 7 CSS */
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +14,20 @@ body {
   cursor:default;
   -webkit-user-select:none;
 }
+h1,body>p {
+  margin: 15px;
+  color: rgb(108, 108, 113);
+  font-size: auto;
+  font-weight: 400;
+}
+h1 a,body>p a {
+  color:inherit
+}
+h1 {
+  text-transform:uppercase;
+  text-align: center;
+  margin-bottom: 5px;
+}
 h2,body>p {
   margin: 15px;
   color: rgb(108, 108, 113);
@@ -26,6 +39,7 @@ h2 a,body>p a {
 }
 h2 {
   text-transform:uppercase;
+  text-align: center;
   margin-bottom: 5px;
 }
 body>p {
@@ -124,4 +138,11 @@ img.icon {
   max-height: 29px;
   min-width: 29px;
   width: 29px;
+}
+.copyright {
+  display: block;
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+  text-align:center;
 }

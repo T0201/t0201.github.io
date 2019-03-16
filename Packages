@@ -15,7 +15,7 @@ SHA384: 4fe935dc5744b4260732dce95bbe5ae8efedaab4a3a22dbdeccd821ef363136d16329186
 SHA512: 36c6f6a8ada11c5422b48a4cc32fe69c7cccd2047630e535df7da0341d71592586e5611cf091ce4a30eb22537dc865d5e15ab56b71ee5b6a133b17f363b455aa
 Priority: Extra
 Installed-Size: 184612
-Description: Kodi Entertainment Center for iOS
+Description: Kodi Entertainment Center for 7.x iOS
 Homepage: http://kodi.tv/
 Maintainer: Memphiz
 Author: Team-Kodi
