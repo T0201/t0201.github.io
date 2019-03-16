@@ -15,9 +15,9 @@ body {
   -webkit-user-select:none;
 }
 h1,body>p {
-  margin: 15px;
+  margin: 5px;
   color: rgb(108, 108, 113);
-  font-size: auto;
+  font-size: 24px;
   font-weight: 400;
 }
 h1 a,body>p a {
@@ -144,6 +144,6 @@ img.icon {
   position: fixed;
   margin: 0;
   width: 100%;
-  bottom: 10px;
+  bottom: 1%;
   text-align:center;
 }
