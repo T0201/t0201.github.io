@@ -1,4 +1,4 @@
-Package: org.t0201.kodi-ios64
+Package: org.xbmc.kodi-ios64
 Name: Kodi-iOS (64-bit)
 Version: 18.1-0
 Architecture: iphoneos-arm
@@ -6,7 +6,7 @@ Depends: firmware (>= 7.0)
 Pre-Depends: cy+cpu.arm64
 Conflicts: org.xbmc.kodi-ios
 Replaces: org.xbmc.kodi-ios
-Filename: ./deb/org.t0201.kodi-ios_18.1-0_iphoneos-arm64.deb
+Filename: ./deb/org.xbmc.kodi-ios_18.1-0_iphoneos-arm64.deb
 Size: 55119368
 MD5sum: 68880cb600118cba1a8baf90d3594029
 SHA1: 9915964021e7d31ce34d7842ad1246bf373e124e
