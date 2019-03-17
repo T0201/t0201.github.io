@@ -4,18 +4,180 @@ Version: 18.1-0
 Architecture: iphoneos-arm
 Depends: firmware (>= 7.0)
 Pre-Depends: cy+cpu.arm64
-Conflicts: org.xbmc.kodi-ios
-Replaces: org.xbmc.kodi-ios
+Conflicts: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
+Replaces: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
 Filename: ./deb/org.xbmc.kodi-ios_18.1-0_iphoneos-arm64.deb
 Size: 55119368
+Installed-Size: 184612
 MD5sum: 68880cb600118cba1a8baf90d3594029
 SHA1: 9915964021e7d31ce34d7842ad1246bf373e124e
 SHA256: 1d48e142a04f6d4d22fdd6f94f416e44d73fa655fb27f4ab1cb734f3f0630cf1
 SHA384: 4fe935dc5744b4260732dce95bbe5ae8efedaab4a3a22dbdeccd821ef363136d16329186d7ae502c6c63f44d4b745e1e
 SHA512: 36c6f6a8ada11c5422b48a4cc32fe69c7cccd2047630e535df7da0341d71592586e5611cf091ce4a30eb22537dc865d5e15ab56b71ee5b6a133b17f363b455aa
 Priority: Extra
-Installed-Size: 184612
 Description: Kodi Entertainment Center for 7.x iOS
+Homepage: http://kodi.tv/
+Maintainer: Memphiz
+Author: Team-Kodi
+Section: Multimedia
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+
+Package: org.xbmc.kodi-ios64
+Name: Kodi-iOS (64-bit)
+Version: 18.0-0
+Architecture: iphoneos-arm
+Depends: firmware (>= 7.0)
+Pre-Depends: cy+cpu.arm64
+Conflicts: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
+Replaces: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
+Filename: ./deb/org.xbmc.kodi-ios_18.0-0_iphoneos-arm64.deb
+Size: 55040532
+Installed-Size: 184064
+MD5sum: 9E4DAA17D3E4C69B1361CEC4E74BFA65
+SHA1: F3DD09922DFF7E7AA9A8EB31531DB5DB58A6CF62
+SHA256: 61CEB202435EE777FB662744EEDAC4BBEDA85A0C704520C0F0525DEC4C841741
+SHA384: AA6AC49EF713429A2F297621337A42F33ED65C848BF6926ADD8C92E2689401BABEAC3C35156863B15D2749A9D791E0AC
+SHA512: 9763904B98CE4E01B3CB5B4EEB2CD823E836696C5CA6D3569E22DE737C4A15C797FC5C6B1E48C2F55632EC7AEBE3E34738F2DDBED85663B74DE5D9E5E6A68561
+Priority: Extra
+Description: Kodi Entertainment Center for 7.x iOS
+Homepage: http://kodi.tv/
+Maintainer: Memphiz
+Author: Team-Kodi
+Section: Multimedia
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+
+Package: org.xbmc.kodi-ios
+Name: Kodi-iOS
+Version: 18.1-0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1)
+Conflicts: cy+cpu.arm64, org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios
+Filename: ./deb/org.xbmc.kodi-ios_18.1-0_iphoneos-arm.deb
+Size: 58539604
+Installed-Size: 172680
+MD5sum: 4D58197CDDC65C95739DD0F01B221A07
+SHA1: 8C80840C18F8AF84E0658365B53176AF0A9EB6D0
+SHA256: 4E24411B76C09C5B745B93BD58EC957A046551B0F043E9C84E2B57BD45DB1550
+SHA384: 84452FE308DE45C3B3DCAF65FBB930B4D587DC4B4FB2A9D36FD205752E8F2E03B82B4E79A0D6F434E74FDB86749EA1F8
+SHA512: B749868FAAAB1B8DB90C1F9199EA67B78710C914CFCE31618794F19D0C99E552C6BB9F6F06BB34483776D997E5DB6F5872A6DD1E97950A5DBD9EF632EAB9DFA1
+Priority: Extra
+Description: Kodi Entertainment Center for 5.x iOS
+Homepage: http://kodi.tv/
+Maintainer: Memphiz
+Author: Team-Kodi
+Section: Multimedia
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+
+Package: org.xbmc.kodi-ios
+Name: Kodi-iOS
+Version: 18.0-0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1)
+Conflicts: cy+cpu.arm64, org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios
+Filename: ./deb/org.xbmc.kodi-ios_18.0-0_iphoneos-arm.deb
+Size: 58444564
+Installed-Size: 172168
+MD5sum: 175BFB085E20B065A0976778A08CFAB1
+SHA1: 13F028EA68F728DA16FDBA239972F32A486E8C8F
+SHA256: AF438512EB2FF8FD27B26F2E5981633C968EEBAF057416FA7ACB33E255C758C6
+SHA384: 7EF156DFD9AC6E00828898AEFE584F16F826AFA8023C47206BF3FA1CB60DFD18EC3F63617B5B81223B8FB655E2223475
+SHA512: 5F8D3F21F07121FBD35403D6339B9D72080C143AD00E6B0FC1EB2683C74275C45BA833F1806F383AE7010DD544592968B43AFFB73ED9ED339D05F27C90FB060B
+Priority: Extra
+Description: Kodi Entertainment Center for 5.x iOS
+Homepage: http://kodi.tv/
+Maintainer: Memphiz
+Author: Team-Kodi
+Section: Multimedia
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+
+Package: org.xbmc.kodi-ios
+Name: Kodi-iOS
+Version: 17.2-0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1)
+Conflicts: cy+cpu.arm64, org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios
+Filename: ./deb/org.xbmc.kodi-ios_17.2-0_iphoneos-arm.deb
+Size: 47533586
+Installed-Size: 136464
+MD5sum: 65B2DEBA9DEA04D6E95A864216021A46
+SHA1: 26C7AE7C3E345831BC445BCCBC5B0D5041621D69
+SHA256: A5EB0EE4017C0BD818EF1AEA1F7BA568D844BD7D0A5BBE12DDDE065113355819
+SHA384: 494F6E94D02346340EB4128FEF4F4B505B23FE4EC95EFE2C148AD39A3CD1ABBD5BC8A67E6C0F34FCB6424E2718FA573D
+SHA512: E813F37711745A5AD7555306A3BAE59F5B3DBCB55B36FA5D4A5D4606A31662C47A9C4602C5AA6164357B893EF855A0A40F8AC27DC712644378A7F2F8593A70BA
+Priority: Extra
+Description: Kodi Entertainment Center for 5.x iOS
+Homepage: http://kodi.tv/
+Maintainer: Memphiz
+Author: Team-Kodi
+Section: Multimedia
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+
+Package: org.xbmc.kodi-ios
+Name: Kodi-iOS
+Version: 16.1-0
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1)
+Conflicts: cy+cpu.arm64, org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios
+Filename: ./deb/org.xbmc.kodi-ios_16.1-0_iphoneos-arm.deb
+Size: 36894180
+Installed-Size: 127864
+MD5sum: 9F832099493C0B550109480DB17E7B3B
+SHA1: ECC3DA6AD989A9D9958D75A0D6FCE3466CF94344
+SHA256: F797ECB85F2A561246F387D378215D3AC9C73B4E4639F03D641A266D380444BE
+SHA384: 71ABC31433B80CD2FD0CAE55F8CA8AB93B82D8EAE7B892F7F3722818CD6435BB601A6570F79C8706C01BC82036146982
+SHA512: 51749884E52EDE193010C7C12C8A85B7BAA3B01400320CD2EE15DF7F555C4B706D4F52C6C9B91F4836A2F4AEE5C8A4482058E478F00544D5E4EFAC3607AD566E
+Priority: Extra
+Description: Kodi Entertainment Center for 5.x iOS
+Homepage: http://kodi.tv/
+Maintainer: Memphiz
+Author: Team-Kodi
+Section: Multimedia
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+
+Package: org.xbmc.kodi-ios
+Name: Kodi-iOS
+Version: 15.2-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.1)
+Conflicts: cy+cpu.arm64, org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios
+Filename: ./deb/org.xbmc.kodi-ios_15.2-1_iphoneos-arm.deb
+Size: 34192284
+Installed-Size: 122048
+MD5sum: f175d854b8f9a74ad093423f23fd7037
+SHA1: fb92ea606df228d124123a7567b96e01e9af6a70
+SHA256: d1b005a905312aafb0fbe4bbd10a13d50f9539f8ceead79ea19a39b7cca4766d
+SHA384: 8FA75B9D49A808565265FF3720E5C12F1212E9C3FCC53059F7143116EA33C8FCEBC5713895C199C0065B60A930162192
+SHA512: 0794BEAAAC3B46A00FDAB0FC5FF997111728074A23664DE5B1A38CB184D35952332D3CA9853FA7162FBA13D5B5488789FB1D8862C3F49FCA31BC797BF2D4FD0C
+Priority: Extra
+Description: Kodi Entertainment Center for 5.x iOS
+Homepage: http://kodi.tv/
+Maintainer: Memphiz
+Author: Team-Kodi
+Section: Multimedia
+Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+
+Package: org.xbmc.kodi-ios
+Name: Kodi-iOS
+Version: 14.2-0
+Architecture: iphoneos-arm
+Depends: firmware (>= 4.1)
+Conflicts: cy+cpu.arm64, org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios
+Filename: ./deb/org.xbmc.kodi-ios_14.2-0_iphoneos-arm.deb
+Size: 37148284
+Installed-Size: 143684
+MD5sum: 848BB8733588FB3DB6E7C9984CE586DC
+SHA1: 522464DCF504E8BF58D02E2613532719DF259D2A
+SHA256: 7B506CC9798FE7279775E829802C6724EBA06468509DAF85656CEBE0AF480717
+SHA384: 27EE49994CADF8F6391362FFB748ACDABC956462F18829BF7BBE7BD5F7BA85AE54614599E887B966991EF75924187E1E
+SHA512: EDF28492959F2C4F56B171367F85010D42F7DF4D6F4640E597C3DB1912D8F81530E4E8D205B12FCD57A4FD16336E3757BEA2ECC91A0C303046CFABB38CBF5D03
+Priority: Extra
+Description: Kodi Entertainment Center for 4.x iOS
 Homepage: http://kodi.tv/
 Maintainer: Memphiz
 Author: Team-Kodi
