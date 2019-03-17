@@ -4,8 +4,8 @@ Version: 18.1-0
 Architecture: iphoneos-arm
 Depends: firmware (>= 7.0)
 Pre-Depends: cy+cpu.arm64
-Conflicts: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
-Replaces: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
+Conflicts: org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios64
 Filename: ./deb/org.xbmc.kodi-ios_18.1-0_iphoneos-arm64.deb
 Size: 55119368
 Installed-Size: 184612
@@ -28,8 +28,8 @@ Version: 18.0-0
 Architecture: iphoneos-arm
 Depends: firmware (>= 7.0)
 Pre-Depends: cy+cpu.arm64
-Conflicts: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
-Replaces: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
+Conflicts: org.xbmc.kodi-ios
+Replaces: org.xbmc.kodi-ios64
 Filename: ./deb/org.xbmc.kodi-ios_18.0-0_iphoneos-arm64.deb
 Size: 55040532
 Installed-Size: 184064
