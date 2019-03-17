@@ -2,83 +2,100 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name='viewport' content='width=320; width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;'>
+	<meta name='viewport' content='width=320; width=device-width; initial-scale=1.0; minimum-scale=1.0, maximum-scale=1.0; user-scalable=0;'>
 	<meta http-equiv="X-UA-Compatible" content="text/html; charset=UTF-8">
-	<link rel='stylesheet' type='text/css' href='./index/style.css'>
-	<link rel="icon" type="image/png" href="./index/icons/favicon.png">
-	<link rel="shortcut icon" href="./index/icons/favicon.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="./index/icons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="./index/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="./index/icons/favicon-16x16.png">
-	<script src="./index/jquery-3.2.1.min.js"></script>
-	<script src="./index/description.js?_=46545663394"></script>
+  <meta name="format-detection" content="telephone=no">
+  <link rel='stylesheet' type='text/css' href='./resources/style.css'>
+	<link rel="icon" type="image/png" href="./resources/icons/favicon.png">
+	<link rel="shortcut icon" href="./resources/icons/favicon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./resources/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./resources/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./resources/icons/favicon-16x16.png">
+	<script type="text/javascript" src="./resources/saurik.js"></script>
+	<script src="./resources/jquery-3.2.1.min.js"></script>
+	<script src="./resources/description.js?_=46545663394"></script>
 	<title>T0201 Repository</title>
 </head>
-<body onload="loadRecentUpdates();">
-	<h1>T0201</h1>
-	<h2>Cydia Repository</h2>
-	<ul>
-		<li>
-			<a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://t0201.github.io/">
-				<img class="icon" src="./index/icons/cydia7.png"/>
-				<label>Open Cydia</label>
-			</a>
-		</li>
-		<li>
+
+
+<body class="pinstripe">
+  <panel>
+
+    <block>
+      <fieldset style="text-align: center;">
+        <label>
+          <strong>T0201</strong><br />
+					<strong>Cydia Repository</strong>
+        </label>
+      </fieldset>
+    </block>
+
+		<!-- Repository -->
+    <label>Options To Add Repository</label>
+    <fieldset>
+			<!-- cydia -->
+			<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://t0201.github.io/">
+        <img class="icon" src="./resources/icons/cydia7.png">
+        <div><div><label>
+					<p>Open Cydia</p>
+				</label></div></div>
+      </a>
+			<!-- csources2 -->
 			<a href="csources2://addsource?address=https://t0201.github.io/">
-				<img class="icon" src="./index/icons/csources2-tweaks.png"/>
-				<label>Open CSources2</label>
-			</a>
-		</li>
-		<li>
-			<a>
-				<img class="icon" src="./index/icons/url.png">
-				<label>URL Repository</label>
-				<input style="float: right" type="text" value="https://t0201.github.io/" onclick="setSelectionRange(0,25)">
-			</a>
-		</li>
-	</ul>
-	<!-- <p style="text-align:center;margin-top:-30px;">Repository : http://t0201.github.io/</p> -->
-	<span id="updates_" hidden><h2>Last Updates</h2><ul id="updates"></ul></span>
-	<br />
+        <img class="icon" src="./resources/icons/csources2-tweaks.png">
+        <div><div><label>
+					<p>Open CSources2</p>
+				</label></div></div>
+      </a>
+			<!-- url -->
+      <a>
+        <img class="icon" src="./resources/icons/url.png">
+        <div><div>
+          <label><p>URL</p></label>
+          <input type="text" value="https://t0201.github.io/" onclick="setSelectionRange(0,24)" style="width: 210px;">
+        </div></div>
+      </a>
+    </fieldset>
 
-	<!-- HELP US
-	<h2 style="margin-top:-10px;">HELP US</h2>
-	<ul> -->
-		<!-- paypal
-		<li>
+		<!-- HELP US
+		<label>HELP US</label>
+		<fieldset> -->
+			<!-- paypal
 			<a href="https://www.paypal.me/t0201" target="_blank">
-				<img class="icon" src="./index/icons/pp.png"/>
-				<label>Donate</label>
+				<img class="icon" src="./resources/icons/pp.png">
+				<div><div><label>
+					<p>Donate</p>
+				</label></div></div>
 			</a>
-		</li>
-	</ul> -->
+		</fieldset> -->
 
-	<!-- SOCIAL -->
-	<h2 style="margin-top:-10px;">SOCIAL</h2>
-	<ul>
-		<!-- github -->
-		<li>
+		<!-- SOCIAL -->
+		<label>SOCIAL</label>
+		<fieldset>
+			<!-- github -->
 			<a href="https://github.com/t0201" target="_blank">
-				<img class="icon" src="./index/icons/github.png"/>
-				<label>GitHub</label>
+				<img class="icon" src="./resources/icons/github.png">
+				<div><div><label>
+					<p>Donate</p>
+				</label></div></div>
 			</a>
-		</li>
-		<!-- reddit -->
-		<li>
+			<!-- reddit -->
 			<a href="https://www.reddit.com/user/t0201" target="_blank">
-				<img class="icon" src="./index/icons/reddit.png"/>
-				<label>Reddit</label>
+				<img class="icon" src="./resources/icons/reddit.png">
+				<div><div><label>
+					<p>Donate</p>
+				</label></div></div>
 			</a>
-		</li>
-		<!-- twitter
-		<li>
+			<!-- twitter
 			<a href="https://twitter.com/t0201" target="_blank">
-				<img class="icon" src="./index/icons/twitter.png"/>
-				<label>Follow t0201</label>
-			</a>
-		</li> -->
-	</ul>
+				<img class="icon" src="./resources/icons/twitter.png">
+				<div><div><label>
+					<p>Donate</p>
+				</label></div></div>
+			</a> -->
+		</fieldset>
+
+  </panel>
 
 	<!-- © -->
 	<p style="text-align:center;">T0201 © 2019</p>
