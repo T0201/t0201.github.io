@@ -1,8 +1,8 @@
 Origin: T0201
-Label: T0201's repo
+Label: T0201 Repository
 Suite: stable
 Version: 1.0
 Codename: T0201
 Architectures: iphoneos-arm
 Components: main
-Description: The Official T0201 Repository
+Description: The Personal T0201 Repository
