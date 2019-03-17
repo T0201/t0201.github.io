@@ -3,7 +3,7 @@
   padding: 0;
   border: 0;
   outline: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 html {
   background: rgb(239, 239, 244);
@@ -11,8 +11,8 @@ html {
 body {
   font: 14px -apple-system-font,".Helvetica NeueUI","Helvetica Neue",sans-serif;
   margin: 0px 0 35px 0;
-  cursor:default;
-  -webkit-user-select:none;
+  cursor: default;
+  -webkit-user-select: none;
 }
 h1,body>p {
   margin: 5px;
@@ -21,10 +21,10 @@ h1,body>p {
   font-weight: 400;
 }
 h1 a,body>p a {
-  color:inherit
+  color: inherit
 }
 h1 {
-  text-transform:uppercase;
+  text-transform: uppercase;
   text-align: center;
   margin-bottom: 5px;
 }
@@ -38,7 +38,7 @@ h2 a,body>p a {
   color:inherit
 }
 h2 {
-  text-transform:uppercase;
+  text-transform: uppercase;
   text-align: center;
   margin-bottom: 5px;
 }
@@ -47,10 +47,10 @@ body>p {
 }
 a,button {
   color: rgb(0, 122, 255);
-  text-decoration:none;
+  text-decoration: none;
 }
 header {
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -60,19 +60,19 @@ header {
   border-bottom: 1px solid rgb(201, 201, 205);
 }
 header h1 {
-  text-align:center;
+  text-align: center;
   font-size: 18px;
   line-height: 44px;
   font-weight: 500;
 }
 ul {
   margin: 5px 0 35px 0;
-  list-style:none;
+  list-style: none;
   background: rgb(255, 255, 255);
 }
 ul:before,ul:after {
   content: "";
-  display:block;
+  display: block;
   height: 1px;
   background: rgb(200, 199, 204);
 }
@@ -91,16 +91,17 @@ ul li>p+p,ul li>p+a,ul li>p+button,ul li>a+p,ul li>a+a,ul li>a+button,ul li>butt
   padding-top: 0;
 }
 ul li>a,ul li>button {
-  display:block;color: rgb(0, 122, 255);
+  display: block;
+  color: rgb(0, 122, 255);
   padding-right: 30px;
-  position:relative;
+  position: relative;
   z-index: 2;
 }
 ul li>a:after,ul li>button:after {
   content: "";
-  display:block;
-  background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NSIgaGVpZ2h0PSI5OSI+PHBvbHlnb24gcG9pbnRzPSIzNC43LDQ5LjcgMCw4NC40IDE1LjEsOTkuNSA2NC44LDQ5LjcgNDkuNywzNC43IDE1LjEsMCAwLDE1LjEiIHN0eWxlPSJmaWxsOiNjN2M3Y2MiLz48L3N2Zz4=");
-  position:absolute;
+  display: block;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NSIgaGVpZ2h0PSI5OSI+PHBvbHlnb24gcG9pbnRzPSIzNC43LDQ5LjcgMCw4NC40IDE1LjEsOTkuNSA2NC44LDQ5LjcgNDkuNywzNC43IDE1LjEsMCAwLDE1LjEiIHN0eWxlPSJmaWxsOiNjN2M3Y2MiLz48L3N2Zz4=");
+  position: absolute;
   top: 50%;
   right: 15px;
   width: 10px;
@@ -109,9 +110,9 @@ ul li>a:after,ul li>button:after {
   background-size: 100% 100%;
 }
 ul li>button {
-  font:inherit;
+  font: inherit;
   width: 100%;
-  text-align:left;
+  text-align: left;
 }
 ul+p {
   margin-top: -25px;
@@ -120,20 +121,20 @@ ul+p {
   margin-top: 35px;
 }
 .cydia header {
-  display:none;
+  display: none;
 }
 .cydia header+p {
   margin-top: -20px;
 }
 .depiction {
-  background:transparent;
+  background: transparent;
 }
 .depiction body {
   margin-top: 0;
   margin-bottom: 0;
 }
 img.icon {
-  height:auto;
+  height: auto;
   margin: -7px 6px -9px -8px;
   max-height: 29px;
   min-width: 29px;
