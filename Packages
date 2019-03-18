@@ -1,5 +1,5 @@
 Package: org.xbmc.kodi+vstream-ios64
-Name: Kodi-iOS (64-bit)
+Name: Kodi-iOS (64-bit) + vStream
 Version: 18.1-0
 Architecture: iphoneos-arm
 Depends: firmware (>= 7.0)
