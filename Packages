@@ -245,10 +245,10 @@ Maintainer: Ryan Petrich <rpetrich@gmail.com>
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.6~beta) | firmware (<< 7.0)
 Conflicts: com.a3tweaks.polus (<< 2.0.7)
 Architecture: iphoneos-arm
-Filename: http://apt.thebigboss.org/repofiles/cydia/debs2.0/applist_1.5.14_iphoneos-arm.deb
+Filename: ./deb/applist_1.5.14_iphoneos-arm.deb
 Size: 93138
 Installed-Size: 600
-MD5sum: cd8cc24cb82a6714a6a1a41424d72e22
+MD5sum: CD8CC24CB82A6714A6A1A41424D72E22
 SHA1: D7883CA1EB96611D9856F17C3510872DECFCE0EB
 SHA256: 81AD24DD58694E8B6B72706B108F75A51D8EB049C856975E9FC86B1976A25B1E
 SHA384: ABD6032B526E499B3F0435587CD9863A079BE3CDCF079AC08397BC871443E4F7FFF1D8574E582917408A7B843141CA52
@@ -259,4 +259,94 @@ Description: Allow extensions to read the list of installed apps
 Author: Ryan Petrich <rpetrich@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 dev: rpetrich
+
+Package: base
+Version: 1-5
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./deb/base_1-5_iphoneos-arm.deb
+Size: 1652
+MD5sum: C0757C1C7591F3E4731C0754D3FF84D5
+SHA1: 50D95C1FADAC757B13B63B8EFDA966F7DEFEF92E
+SHA256: C87BE43D8F157F46AD897334D31E1BD277A2F504106917A1DDD49197F5CD5F48
+SHA384: DFC944787D1166C0531C99197343AC6C71F7633BFFCD977D75718268FADB2D11E05D0F078455CC3F79530D13302091D6
+SHA512: 4B2E8456E9678937497E22D3DCF4EA1148C76981C3F6E44EBFBA01F590022C3BE2870D9AA8A6536B5691807D503FA5CC3F253D08F0E5607659D49AA003716696
+Section: System
+Priority: required
+Author: Sam Bingner <maintainer@sbdhi.com>
+Description: underlying system directory structure
+Name: Base Structure
+Tag: purpose::backend, role::hacker
+dev: SamBingner
+
+Package: bash
+Version: 5.0.3-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 5368
+Depends: grep, ncurses, readline (>= 8.0), sed
+Filename: ./deb/bash_5.0.3-1_iphoneos-arm.deb
+Size: 473052
+MD5sum: 2838DAC251DEA0AF41B12CDB3B02FC48
+SHA1: 5020138FB621B6F4D5649ACBC62A6F73CEE3A34D
+SHA256: 61FAB9E0C0DC0F9CA9046D75A3795DBD255E89E2EA9DF6091C4F6063FEFAF9CD
+SHA384: B47706FD27C343E331D70CF9BCD40C9FF41CECA773E6C527D04F3446EC51658CED192D34E407A54EE5FFD3CF93231F29
+SHA512: 3E03DE9317AD989EF0228FAC67EC49056F5B813B2AD80563F9F21F658133F5AF49EDAEAE4231C1116228B0655B7529CBE97E16C4DB9652CD5F40AF1DD186C6F4
+Section: Terminal_Support
+Priority: required
+Author: Sam Bingner <maintainer@sbdhi.com>
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox
+Name: Bourne-Again SHell
+Tag: purpose::console, role::hacker
+dev: SamBingner
+
+Package: berkeleydb
+Version: 6.2.32-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 5520
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./deb/berkeleydb_6.2.32-1_iphoneos-arm.deb
+Size: 690482
+MD5sum: 14E0D10E443029D9B5C7451AACF7E54A
+SHA1: D1BE52ABDA12FCA14EEB9DD58DD01CDD0A15204B
+SHA256: 3D7298C6D493BD5E338EAD1DCF8B1E3CA8E339D8B02E074EA040CB9B326A30B2
+SHA384: 02D0CEA6F14FCCDE7207146C9881F07198E6A5169497899528A688791E0D6ABB1BC73FB2D793191517B1839A457098EE
+SHA512: 5EB0A23AE302F55E1537C09A885C3D7B22C21C425D7C55E27F5297A8CA8662F726ED505CFB7882CB1C1DE0602DFD488CCD9496787F1FC375E32F9F2DAAF3A18F
+Section: Data_Storage
+Priority: standard
+Author: Sam Bingner <maintainer@sbdhi.com>
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Oracle's embeddable database engine
+Name: Berkeley DB
+Tag: purpose::library, role::developer
+dev: SamBingner
+
+Package: bz.jed.tweakcompatible
+Version: 0.1.5
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: http://apt.thebigboss.org/repofiles/cydia/debs2.0/tweakcompatible_0.1.5.deb
+Size: 54016
+Installed-Size: 292
+MD5sum: 0A90D6021BA05AA5F67C60274C8D69B7
+SHA1: DE79C31D1D26788D60E4A1E473E3153D2933F5D3
+SHA256: D10CB06E4DA3281ED89906AC84656996B98F52C98C743A22F303FCDAD3297B7E
+SHA384: DB7C700AD5BCE63EDB366F7F1C4E14D1C48A5A52911196D6C6EFD96EEA6B2D011D887512D5F0F6BCDAF12B2685EABC3B
+SHA512: A93237AAC0B15712325B26284A8514C3A5CDF9F055FD7D6F2F761BA76F6FCB2C1C6A032220DA52A3BBF7298D33ED6FA0350DB9CBA08121C92FAA1F8F615C9CBD
+Name: tweakCompatible
+Icon: file:///Library/PreferenceBundles/tweakCompatible_prefs.bundle/icon@2x.png
+Description: Adds a way to check tweak compatibility in cydia
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: treAson <treasonftg@gmail.com>
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tweakcompatibleDp
+homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tweakcompatibleDp
+dev: jed
 
