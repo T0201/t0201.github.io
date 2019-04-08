@@ -1,28 +1,3 @@
-Package: org.xbmc.kodi+vstream-ios64
-Name: Kodi-iOS (64-bit) + vStream
-Version: 18.1-0
-Architecture: iphoneos-arm
-Depends: firmware (>= 7.0)
-Pre-Depends: cy+cpu.arm64
-Conflicts: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
-Replaces: org.xbmc.kodi-ios, org.xbmc.kodi-ios64
-Filename: ./deb/org.xbmc.kodi+vstream-ios_18.1-0_iphoneos-arm64.deb
-Size: 75979454
-Installed-Size: 184612
-MD5sum: B066C65A816B7A8756F226A48E9F2239
-SHA1: 303F76CD2F375E1F34E1D258ACF25933499EB927
-SHA256: D694886F075D77292BA30D797CBB7D0BD2AF3556BAD0338330EBEC8147AAAAFB
-SHA384: F58289FBC39449B71204C7CD346243FCC4E7DE8ED711832A31B9EDC72C121D5D8C1D4A483F68E5DD645BA1CD3783241A
-SHA512: C2FE3568C07889558DA28CC68FC40BEE2C29737DEB9FCD10D248671D202D4DED2D781FBE31D960342BB8BE02C5C70C6864FAC732C3F5FEED8C34D36F322F14F9
-Priority: Extra
-Description: Kodi Entertainment Center for 7.x iOS
-Homepage: http://kodi.tv/
-Maintainer: Memphiz
-Author: Team-Kodi
-Section: Multimedia
-Icon: file:///Applications/Kodi.app/AppIcon57x57.png
-
-
 Package: org.xbmc.kodi-ios64
 Name: Kodi-iOS (64-bit)
 Version: 18.1-0
@@ -46,6 +21,7 @@ Maintainer: Memphiz
 Author: Team-Kodi
 Section: Multimedia
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+dev: Team-Kodi
 
 Package: org.xbmc.kodi-ios64
 Name: Kodi-iOS (64-bit)
@@ -70,6 +46,7 @@ Maintainer: Memphiz
 Author: Team-Kodi
 Section: Multimedia
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+dev: Team-Kodi
 
 Package: org.xbmc.kodi-ios
 Name: Kodi-iOS
@@ -93,6 +70,7 @@ Maintainer: Memphiz
 Author: Team-Kodi
 Section: Multimedia
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+dev: Team-Kodi
 
 Package: org.xbmc.kodi-ios
 Name: Kodi-iOS
@@ -116,6 +94,7 @@ Maintainer: Memphiz
 Author: Team-Kodi
 Section: Multimedia
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+dev: Team-Kodi
 
 Package: org.xbmc.kodi-ios
 Name: Kodi-iOS
@@ -139,6 +118,7 @@ Maintainer: Memphiz
 Author: Team-Kodi
 Section: Multimedia
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+dev: Team-Kodi
 
 Package: org.xbmc.kodi-ios
 Name: Kodi-iOS
@@ -162,6 +142,7 @@ Maintainer: Memphiz
 Author: Team-Kodi
 Section: Multimedia
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+dev: Team-Kodi
 
 Package: org.xbmc.kodi-ios
 Name: Kodi-iOS
@@ -185,6 +166,7 @@ Maintainer: Memphiz
 Author: Team-Kodi
 Section: Multimedia
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+dev: Team-Kodi
 
 Package: org.xbmc.kodi-ios
 Name: Kodi-iOS
@@ -208,3 +190,73 @@ Maintainer: Memphiz
 Author: Team-Kodi
 Section: Multimedia
 Icon: file:///Applications/Kodi.app/AppIcon57x57.png
+dev: Team-Kodi
+
+Package: ajbbotech.com.storefeatures
+Version: 1.2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: ./deb/storefeatures_1.2.deb
+Size: 42432
+Installed-Size: 478
+MD5sum: 7E13B8E6E08E7AD0C7344EFBB820B063
+SHA1: 7BFE3945C791D438769C067677660617CBBEE329
+SHA256: 333B6E573C491DBF9FBD90E249CC3BD4823F0D736A06D0DF921485C0F4279F53
+SHA384: 1A87093F863280FD550FC4F9CA420BE64FB42D00EF15665DFF3EBA9AECADBE558F05F567715AEB137447D51FFCC83A1B
+SHA512: B6C0058DD240A15270972018482D0E3BBEB1495CEA7C2CA0130289B64E4178293885693A3FFFB5CB1E20C6A15E01EC47BDE692B11032B06BF110915EE1704FCE
+Name: Store Features
+Description: Add More Features to Cydia
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: aJBboCydia <aJBboCydia@gmail.com>
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=storefeaturesDp
+homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=storefeaturesDp
+dev: ajbbocydia
+
+Package: ajbbotech.com.storefeatures
+Version: 1.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: ./deb/storefeatures_1.1.deb
+Size: 41806
+Installed-Size: 
+MD5sum: 96A572F3E635FBBF56034A2383DC6395
+SHA1: 748EA92AC36CBEB42BA41EB85AE089904884CC27
+SHA256: 93B680058648EF845A85C24FF6622929B5EBD3206EF893EEF99C14D34258578A
+SHA384: E8688C1A36CCEFC2343CFEB639305226D0C51B0C4F973B32581C0786D1B39D6F4104CE743D485B78C38E7BF81F2D8AE6
+SHA512: 47E925C11A341E222B97F3B1A7B77DFC866D7BB6FEE0C6C410F1EF1F2FFC3F2BCC078851CB39CA2F549CB04C521CD69EC50DDCC17AB86071C205FCC198BE6C27
+Name: Store Features
+Description: Add More Features to Cydia
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: aJBboCydia <aJBboCydia@gmail.com>
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=storefeaturesDp
+homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=storefeaturesDp
+dev: ajbbocydia
+
+Package: applist
+Version: 1.5.14
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.6~beta) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Architecture: iphoneos-arm
+Filename: http://apt.thebigboss.org/repofiles/cydia/debs2.0/applist_1.5.14_iphoneos-arm.deb
+Size: 93138
+Installed-Size: 600
+MD5sum: cd8cc24cb82a6714a6a1a41424d72e22
+SHA1: D7883CA1EB96611D9856F17C3510872DECFCE0EB
+SHA256: 81AD24DD58694E8B6B72706B108F75A51D8EB049C856975E9FC86B1976A25B1E
+SHA384: ABD6032B526E499B3F0435587CD9863A079BE3CDCF079AC08397BC871443E4F7FFF1D8574E582917408A7B843141CA52
+SHA512: C599899E4C03B2FD8B38A419EEACDAC9AEEEFDD7009FF33CAF3FD16D6A9898131E271B8E79348DD379E20C82774E8C25711F4F3C94297324066E41EC9DBD4C54
+Name: AppList
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+
